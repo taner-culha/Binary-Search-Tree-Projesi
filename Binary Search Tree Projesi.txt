@@ -1,0 +1,28 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamaları
+
+İlk değer 7. Root oluşturulur ve 7 anahtar değer olarak atanır.
+
+Sonraki değer 5, 7'den küçüktür. "7" düğümünün sol alt öğesi olarak, anahtar değeri 5 olan yeni bir düğüm eklenir.
+
+Sonraki değer 1, 7'den küçük, 5'ten de küçüktür. "5" düğümünün sol alt öğesi olarak, anahtar değeri 1 olan yeni bir düğüm eklenir.
+
+Sonraki değer 8, 7'ten büyüktür. "7" düğümünün sağ alt öğesi olarak, anahtar değeri 8 olan yeni bir düğüm eklenir.
+
+Sonraki değer 3, 7'den küçük, 5'ten küçük, 1'den büyüktür. "1" düğümünün sağ alt öğesi olarak, anahtar değeri 3 olan yeni bir düğüm eklenir.
+
+Sonraki değer 6, 7'den küçük, 5'ten büyüktür. "5" düğümünün sağ alt öğesi olarak, anahtar değeri 6 olan yeni bir düğüm eklenir.
+
+Sonraki değer 0, 7'den küçük, 5'ten küçük, 1'den küçüktür. "1" düğümünün sol alt öğesi olarak, anahtar değeri 0 olan yeni bir düğüm eklenir.
+
+Sonraki değer 9, 7'den büyük, 8'den büyüktür. "8" düğümünün sağ alt öğesi olarak, anahtar değeri 9 olan yeni bir düğüm eklenir.
+
+Sonraki değer 4, 7'den küçük, 5'ten küçük, 1'den büyüktür, 3'ten büyüktür. "3" düğümünün sağ alt öğesi olarak, anahtar değeri 4 olan yeni bir düğüm eklenir.
+
+Sonraki değer 2, 7'den küçük, 5'ten küçük, 1'den büyüktür, 3'ten küçüktür. "3" düğümünün sol alt öğesi olarak, anahtar değeri 2 olan yeni bir düğüm eklenir.
+
+
+                7
+              5   8
+          1    6   9
+        0   3
+           2 4
